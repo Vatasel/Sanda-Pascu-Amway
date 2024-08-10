@@ -1,0 +1,349 @@
+body {
+  background: linear-gradient(
+    to bottom,
+    white,
+    white,
+    #c9dfe8,
+    #c9dfe8,
+    #c9dfe8,
+    #a7d6e9,
+    #a7d6e9,
+    #02aab0,
+    #02aab0,
+    #02aab0,
+    #097967,
+    #097967,
+    #044243,
+    #044243
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centrare orizontală a meniului */
+  padding: 10px;
+}
+
+/* Stiluri pentru butoane */
+.menu-button1,
+.menu-button2,
+.menu-button3,
+.menu-button4 {
+  background-image: linear-gradient(
+    to right,
+    #02aab0 0%,
+    #097967 51%,
+    #044243 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  width: 120px;
+  height: 76px;
+  margin-left: -1px; /* Eliminarea spațiului dintre butoane */
+}
+
+.menu-button1 {
+  border-radius: 15px 0 0 15px;
+  margin-left: 350px;
+}
+
+.menu-button2,
+.menu-button3 {
+  border-radius: 0;
+}
+
+.menu-button4 {
+  border-radius: 0 15px 15px 0;
+  border-right: none; /* Eliminarea bordurii pentru ultimul buton */
+  margin-right: 365px;
+}
+
+h1 {
+  position: center;
+}
+h2 {
+  margin-left: -86%;
+}
+* {
+  box-sizing: border-box;
+}
+
+#h2-categorii {
+  font-size: 100%;
+}
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: #097967;
+  color: #02aab0;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ccc;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #025144;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #040000;
+  width: 100%;
+  border-left: none;
+  background-color: whitesmoke;
+}
+.product-view {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.tab-opener {
+  height: fit-content;
+}
+
+.card {
+  flex: 1 0 18%; /* Ajustează lățimea pentru a obține 5 pe un rând */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 5px;
+  padding-right: 5px;
+  max-width: 20%;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #ff0000;
+  background-color: #00ff33;
+  text-align: center;
+  cursor: pointer;
+  width: 75%;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+  border-radius: 8px 8px 0 0;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.product-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.product-row {
+  display: flex;
+  flex-wrap: wrap; /* Permite cardurilor să se așeze pe mai multe rânduri */
+  gap: 10px;
+  justify-content: space-between;
+}
+.page-numbers {
+  margin: auto;
+  width: fit-content;
+  padding-top: 8px;
+}
+
+.page-numbers-button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #097967;
+  color: #02aab0;
+  border: none;
+  cursor: pointer;
+}
+
+.page-numbers-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.card-description {
+  margin-bottom: 75px;
+}
+.cart-modal {
+  display: none; /* Inițial ascuns */
+  position: fixed;
+  right: 20px; /* Poziționat în colțul din dreapta sus */
+  top: 70px;
+  width: 250px; /* Îngustează modalul */
+  max-height: 80vh; /* 80% din înălțimea vizualizării */
+  background-color: rgb(0, 255, 115);
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Permite scroll-ul */
+  padding: 10px;
+  z-index: 1000;
+  color: #333;
+}
+
+.cart-modal p {
+  margin: 5px 0;
+}
+
+.close-cart-button {
+  position: absolute; /* Poziționat în colțul din dreapta sus */
+  right: 10px; /* La 10px de marginea dreaptă */
+  top: 10px; /* La 10px de sus */
+  background: none; /* Fără fundal */
+  border: none; /* Fără bordură */
+  color: #ff0000; /* Culoare roșie pentru vizibilitate */
+  font-size: 18px; /* Mărime font */
+  cursor: pointer; /* Cursor de pointer pe hover */
+}
+.cos-cumparaturi {
+  height: 50px;
+  width: 50px;
+  background-image: url('pics/shopping-bag.png');
+  background-size: cover; /* Asigură că imaginea acoperă complet elementul */
+  background-repeat: no-repeat; /* Previnde repetarea imaginii */
+  background-position: center; /* Poziționează imaginea în centru */
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
+}
+
+.cart-modal {
+  display: none; /* Inițial ascuns */
+  position: fixed;
+  right: 20px; /* Poziționat în colțul din dreapta sus */
+  top: 70px;
+  width: 250px; /* Îngustează modalul */
+  max-height: 80vh; /* 80% din înălțimea vizualizării */
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Permite scroll-ul */
+  padding: 10px;
+  z-index: 1000;
+  color: #333;
+}
+
+.cart-modal-list {
+  color: #00ff33; /* Culoarea verde pentru text */
+}
+
+.cart-modal-list li {
+  border-bottom: 1px solid #eee;
+  margin-top: 10px; /* Pauză de 10px între elemente */
+}
+
+.cart-modal-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/* SE DA PADDING PREDEFINIT 40PX!!!!!!!!!! */
+
+/* Stil pentru butonul de închidere */
+
+.close-button {
+  position: absolute; /* Poziționare absolută în raport cu modalul */
+  right: 10px; /* Poziționat în colțul din dreapta sus */
+  top: 10px; /* La 10px de sus */
+  background: none; /* Fără fundal */
+  border: none; /* Fără bordură */
+  color: #ff0000; /* Culoare roșie pentru vizibilitate */
+  font-size: 18px; /* Mărime font */
+  cursor: pointer; /* Cursor de pointer pe hover */
+}
+
+.close-cart-button {
+  position: sticky; /* Poziționat în raport cu modalul */
+  right: 10px; /* La 10px de marginea dreaptă */
+  top: 10px; /* La 10px de marginea de sus */
+  background: none; /* Fără fundal */
+  border: none; /* Fără bordură */
+  color: #ff0000; /* Culoare roșie pentru vizibilitate */
+  font-size: 18px; /* Mărime font */
+  cursor: pointer; /* Cursor de pointer pe hover */
+  z-index: 1001; /* Asigură-te că butonul este deasupra listei */
+}
+
+.cos-cumparaturi-titlu {
+  margin-left: 25%;
+}
+
+.button-cumpara {
+  display: inline-block; /* Asigură că butonul se comportă ca un bloc */
+  padding: 10px 20px; /* Dimensiunile butonului */
+  background-color: #4caf50; /* Culoarea de fundal */
+  border: none; /* Elimină marginile */
+  border-radius: 5px; /* Colțuri rotunjite */
+}
+
+.button-cumpara a {
+  display: block; /* Fă linkul un bloc pentru a ocupa întreg butonul */
+  height: 100%; /* Ocupă înălțimea completă a butonului */
+  color: white; /* Culoarea textului */
+  text-align: center; /* Centrarea textului */
+  text-decoration: none; /* Elimină sublinierea */
+}
+
+.button-cumpara:hover {
+  background-color: #45a049; /* Întunecă culoarea butonului la hover */
+}
+
+.pret-total {
+  width: fit-content;
+  font-size: 14px;
+  margin-left: 4px;
+  margin-top: auto;
+}
+.cart-item {
+  display: flex; /* Activează flexbox */
+  align-items: center; /* Aliniază vertical elementele */
+  justify-content: space-between; /* Creează spațiu între elemente */
+  padding: 10px; /* Spațiu interior pentru item */
+  border-bottom: 1px solid #ccc; /* Linie de separare între elemente */
+}
+
+.cart-item span {
+  margin-right: 10px; /* Spațiu între X și restul conținutului */
+  cursor: pointer; /* Cursor pointer pentru X */
+  color: red; /* Culoarea pentru X */
+  font-weight: bold; /* Greutate font pentru X */
+}

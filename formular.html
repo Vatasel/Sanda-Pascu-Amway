@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sanda Pascu</title>
+    <link rel="stylesheet" href="formular.css" />
+    <style>
+      .error-icon {
+        display: none;
+        color: red;
+        margin-left: 10px;
+        font-weight: bold;
+      }
+    </style>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+      (function () {
+        emailjs.init('IyWA4R_liEsm4eYYIF5ls'); // Înlocuiește cu ID-ul tău de utilizator
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="menu-container">
+      <a class="menu-button1" href="index.html">Pagina principală</a>
+      <a class="menu-button2" href="about.html">Despre mine</a>
+      <a class="menu-button3" href="produse.html">Produse</a>
+      <a class="menu-button4" href="contact.html">Contact</a>
+    </div>
+
+    <!-- Formularul adăugat -->
+    <div class="form-container">
+      <form id="myForm" onsubmit="return trimiteEmail(event)">
+        <label for="last-name">Nume de familie (obligatoriu):</label>
+        <input type="text" id="last-name" name="last-name" required />
+        <span class="error-icon" id="error-last-name">!</span>
+
+        <label for="first-name">Prenume (obligatoriu):</label>
+        <input type="text" id="first-name" name="first-name" required />
+        <span class="error-icon" id="error-first-name">!</span>
+
+        <label for="email">Email (obligatoriu):</label>
+        <input type="email" id="email" name="email" required />
+        <span class="error-icon" id="error-email">!</span>
+
+        <label for="phone">Număr de telefon (obligatoriu):</label>
+        <input type="tel" id="phone" name="phone" required />
+        <span class="error-icon" id="error-phone">!</span>
+
+        <label for="county">Județ (obligatoriu):</label>
+        <input type="text" id="county" name="county" required />
+        <span class="error-icon" id="error-county">!</span>
+
+        <label for="city">Localitate (obligatoriu):</label>
+        <input type="text" id="city" name="city" required />
+        <span class="error-icon" id="error-city">!</span>
+
+        <label for="street">Stradă (obligatoriu):</label>
+        <input type="text" id="street" name="street" required />
+        <span class="error-icon" id="error-street">!</span>
+
+        <label for="postal-code">Cod poștal (obligatoriu):</label>
+        <input type="text" id="postal-code" name="postal-code" required />
+        <span class="error-icon" id="error-postal-code">!</span>
+
+        <label for="block-number">Număr bloc (opțional):</label>
+        <input type="text" id="block-number" name="block-number" />
+
+        <label for="stair-number">Număr scară (opțional):</label>
+        <input type="text" id="stair-number" name="stair-number" />
+
+        <input type="submit" value="Trimite" />
+      </form>
+    </div>
+
+    <script>
+      function valideazăFormularul() {
+        // Resetăm toate pictogramele de eroare
+        document.querySelectorAll('.error-icon').forEach(function (icon) {
+          icon.style.display = 'none';
+        });
+
+        // Selectăm toate câmpurile required
+        const campuriObligatorii = document.querySelectorAll(
+          '#myForm input[required]'
+        );
+        let toateCompletate = true;
+
+        // Verificăm dacă toate câmpurile required sunt completate
+        campuriObligatorii.forEach(function (camp) {
+          const errorIcon = document.getElementById('error-' + camp.id);
+          if (!camp.value.trim()) {
+            errorIcon.style.display = 'inline';
+            toateCompletate = false;
+          } else {
+            errorIcon.style.display = 'none';
+          }
+        });
+
+        return toateCompletate; // Permite trimiterea formularului doar dacă toate câmpurile sunt completate
+      }
+
+      function trimiteEmail(event) {
+        event.preventDefault(); // Previne comportamentul standard de trimitere a formularului
+
+        if (!valideazăFormularul()) return; // Verifică validarea formularului
+
+        const templateParams = {
+          last_name: document.getElementById('last-name').value,
+          first_name: document.getElementById('first-name').value,
+          email: document.getElementById('email').value,
+          phone: document.getElementById('phone').value,
+          county: document.getElementById('county').value,
+          city: document.getElementById('city').value,
+          street: document.getElementById('street').value,
+          postal_code: document.getElementById('postal-code').value,
+          block_number: document.getElementById('block-number').value,
+          stair_number: document.getElementById('stair-number').value,
+        };
+
+        emailjs
+          .send('service_2ojif6k', 'template_eqtr7hj', templateParams)
+          .then(
+            function (response) {
+              console.log(
+                'Email trimis cu succes!',
+                response.status,
+                response.text
+              );
+              alert('Email trimis cu succes!');
+            },
+            function (error) {
+              console.log('Eroare la trimiterea emailului:', error);
+              alert(
+                'A apărut o eroare la trimiterea emailului. Te rog încearcă din nou.'
+              );
+            }
+          );
+
+        document.getElementById('myForm').reset(); // Resetează formularul după trimitere
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produse</title>
+    <link rel="stylesheet" href="style-produse.css" />
+  </head>
+  <body>
+    <div class="menu-container">
+      <a class="menu-button1" href="index.html">Pagina principala</a>
+      <a class="menu-button2" href="about.html">Despre mine</a>
+      <a class="menu-button3" href="produse.html">Produse</a>
+      <a class="menu-button4" href="contact.html">Contact</a>
+    </div>
+
+    <button onclick="openCart()" class="cos-cumparaturi"></button>
+    <div id="cart-modal" class="cart-modal">
+      <button onclick="closeCart()" class="close-cart-button">X</button>
+      <div class="cos-cumparaturi-titlu">Cos Cumparaturi</div>
+
+      <ul id="cart-modal-list"></ul>
+      <div style="display: flex; flex-direction: row">
+        <button style="line-height: 20px" class="button-cumpara">
+          <a href="formular.html">Cumpara</a>
+        </button>
+        <div class="pret-total" id="pret-total"></div>
+      </div>
+    </div>
+
+    <h1>Produse</h1>
+    <h2 id="h2-categorii">Categorii produse</h2>
+    <div class="product-view">
+      <div class="tab">
+        <button
+          class="tab-opener active"
+          onclick="openCategory(event, 'Nutritie')"
+        >
+          Nutriție
+        </button>
+        <button class="tab-opener" onclick="openCategory(event, 'Frumusete')">
+          Frumusețe
+        </button>
+        <button class="tab-opener" onclick="openCategory(event, 'Locuinta')">
+          Locuință
+        </button>
+        <button
+          class="tab-opener"
+          onclick="openCategory(event , 'Ingrijire personala')"
+        >
+          Îngrijire personală
+        </button>
+      </div>
+      <div class="product-cards">
+        <div id="Nutritie" class="tabcontent">
+          <div class="product-row" id="product-container"></div>
+          <div class="page-numbers">
+            <button
+              class="page-numbers-button page-numbers-button-prev"
+              onclick="backPage()"
+            >
+              <
+            </button>
+            <button
+              class="page-numbers-button page-numbers-button-next"
+              onclick="nextPage()"
+            >
+              >
+            </button>
+          </div>
+        </div>
+
+        <div id="Frumusete" class="tabcontent" hidden>
+          <div class="product-row" id="product-container"></div>
+          <div class="page-numbers">
+            <button
+              class="page-numbers-button page-numbers-button-prev"
+              onclick="backPage()"
+            >
+              <
+            </button>
+            <button
+              class="page-numbers-button page-numbers-button-next"
+              onclick="nextPage()"
+            >
+              >
+            </button>
+          </div>
+        </div>
+        <div id="Locuinta" class="tabcontent" hidden>
+          <div class="product-row" id="product-container"></div>
+          <div class="page-numbers">
+            <button
+              class="page-numbers-button page-numbers-button-prev"
+              onclick="backPage()"
+            >
+              <
+            </button>
+            <button
+              class="page-numbers-button page-numbers-button-next"
+              onclick="nextPage()"
+            >
+              >
+            </button>
+          </div>
+        </div>
+
+        <div id="Ingrijire personala" class="tabcontent" hidden>
+          <div class="product-row" id="product-container"></div>
+          <div class="page-numbers">
+            <button
+              class="page-numbers-button page-numbers-button-prev"
+              onclick="backPage()"
+            >
+              <
+            </button>
+            <button
+              class="page-numbers-button page-numbers-button-next"
+              onclick="nextPage()"
+            >
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="shopping-cart-script.js"></script>
+  </body>
+</html>

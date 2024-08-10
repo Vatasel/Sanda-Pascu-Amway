@@ -1,0 +1,213 @@
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centrare orizontală a meniului */
+  padding: 10px;
+  margin-bottom: 20px; /* Spațiu între meniu și slideshow */
+}
+
+/* Stiluri pentru butoane */
+.menu-button1,
+.menu-button2,
+.menu-button3,
+.menu-button4 {
+  background-image: linear-gradient(
+    to right,
+    #02aab0 0%,
+    #097967 51%,
+    #044243 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  width: 120px;
+  height: 76px;
+  margin-left: -1px; /* Eliminarea spațiului dintre butoane */
+}
+
+.menu-button1 {
+  border-radius: 15px 0 0 15px;
+  margin-left: 200px;
+}
+
+.menu-button2,
+.menu-button3 {
+  border-radius: 0;
+}
+
+.menu-button4 {
+  border-radius: 0 15px 15px 0;
+  border-right: none; /* Eliminarea bordurii pentru ultimul buton */
+  margin-right: 365px;
+}
+
+/* Stiluri pentru imaginea rotundă */
+.menu-image {
+  border-style: solid;
+  border-radius: 50%;
+  border: 5.7px solid rgb(17, 144, 166);
+  width: 125px;
+  height: 125px;
+  margin-right: 100px; /* Distanță între imagine și butoane */
+}
+
+/* Container pentru slideshow */
+.slideshow-container {
+  max-width: 83%;
+  position: relative;
+  margin: 8px;
+  margin-top: 40px; /* Spațiu între meniu și slideshow */
+  padding: -26px;
+  border-radius: 5px;
+}
+
+.mySlides {
+  display: none;
+  width: 100%;
+}
+.slideshow-container::before {
+  content: '';
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  bottom: -5.5px;
+  right: -5.5px;
+  border-radius: 6px;
+  padding: 5.5px; /* Grosimea bordurii */
+  background: linear-gradient(to right, #02aab0 0%, #097967 51%, #055253 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  z-index: -1; /* Asigură că rama rămâne în spatele conținutului */
+}
+
+/* Add animation to the slideshow */
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.mySlides {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/* Ascunde scrollbar-ul pentru Chrome, Safari și Opera */
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+/* Corpul paginii */
+body {
+  background: linear-gradient(
+    to bottom,
+    white,
+    white,
+    #c9dfe8,
+    #c9dfe8,
+    #c9dfe8,
+    #a7d6e9,
+    #a7d6e9,
+    #02aab0,
+    #02aab0,
+    #02aab0,
+    #097967,
+    #097967,
+    #044243,
+    #044243
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.side-image {
+  width: 100px; /* Dimensiunea imaginii, o poți ajusta */
+  height: 63px; /* Poate fi ajustat pentru a păstra proporțiile */
+  margin-left: -245px; /* Distanța față de butoanele din meniu */
+  margin-right: 165px;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(9, 75, 70, 0.8);
+}
+.dot-container {
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 5px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover,
+.dot.active {
+  background-color: rgba(9, 75, 70, 0.8);
+}
+.footer {
+  position: absolute;
+  display: flex;
+  bottom: 10px;
+  right: 10px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  background: transparent;
+  width: auto;
+}
+
+.footer a {
+  margin: 0 13px; /* Spațiu între iconițe */
+}
+
+.footer img {
+  width: 42px;
+  height: 42px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+.footer img:hover {
+  transform: scale(1.2); /* Efect de mărire la hover */
+}

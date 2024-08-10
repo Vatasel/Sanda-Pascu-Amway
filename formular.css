@@ -1,0 +1,116 @@
+body {
+  background: linear-gradient(
+    to bottom,
+    white,
+    white,
+    #c9dfe8,
+    #c9dfe8,
+    #c9dfe8,
+    #a7d6e9,
+    #a7d6e9,
+    #02aab0,
+    #02aab0,
+    #02aab0,
+    #097967,
+    #097967,
+    #044243,
+    #044243
+  );
+  display: flex;
+  flex-direction: column; /* Aliniază elementele în coloană */
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center; /* Centrează meniul pe orizontală */
+  padding: 10px;
+  margin-bottom: 20px; /* Spațiu între meniu și formular */
+}
+
+/* Stiluri pentru butoane */
+.menu-button1,
+.menu-button2,
+.menu-button3,
+.menu-button4 {
+  background-image: linear-gradient(
+    to right,
+    #02aab0 0%,
+    #097967 51%,
+    #044243 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  width: 120px;
+  height: 76px;
+  margin-left: -1px; /* Elimină spațiul dintre butoane */
+}
+
+.menu-button1 {
+  border-radius: 15px 0 0 15px;
+  margin-left: 200px;
+}
+
+.menu-button2,
+.menu-button3 {
+  border-radius: 0;
+}
+
+.menu-button4 {
+  border-radius: 0 15px 15px 0;
+  border-right: none; /* Elimină bordura pentru ultimul buton */
+  margin-right: 365px;
+}
+
+.form-container {
+  padding: 20px 20px 40px 20px; /* padding: top right bottom left */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 600px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Spațiu deasupra formularului */
+  margin-bottom: 30px;
+}
+
+.form-container label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.form-container input[type='text'],
+.form-container input[type='email'],
+.form-container input[type='tel'] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-container input[type='submit'] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.form-container input[type='submit']:hover {
+  background-color: #45a049;
+}
