@@ -98,7 +98,7 @@ body {
   padding: 5px;
   border: 5px solid #065659;
   border-radius: 10px;
-  filter: grayscale(75%);
+  filter: grayscale(77%);
 }
 
 .overlay-text {
@@ -131,7 +131,7 @@ body {
 }
 
 .vertical-image img {
-  width: 270px;
+  width: 290px;
   height: 450px;
   border: 5px solid #044243;
   border-radius: 10px;
@@ -143,7 +143,7 @@ body {
   border: 5px solid #044243;
   border-radius: 10px;
   background-color: #f0f0f0;
-  width: 900px;
+  width: 880px;
   margin-left: 5px;
   display: inline-block;
   background-color: antiquewhite;
@@ -156,6 +156,7 @@ body {
   align-items: center;
   overflow: hidden;
   margin-left: -10px;
+  text-align: center; /* Adaugă această linie pentru a centra textul */
 }
 
 .image-container-amway {
@@ -190,4 +191,65 @@ body {
 .image-container-amway img:hover {
   transform: scale(1.05); /* Scalează imaginea cu 5% */
   filter: brightness(80%); /* Întunecă imaginea cu 20% */
+}
+.stats-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px; /* Padding pentru a se potrivi cu cel de sus */
+  background-color: antiquewhite; /* Culoare similară cu cea a chenarului "Despre Amway" */
+  border: 1px solid #c0d6e8; /* Border pentru a delimita div-ul */
+  border-radius: 8px; /* Rounding corners */
+  max-width: 800px; /* Lățime maximă mai mică */
+  margin: 25px auto; /* 40px margin pe sus și jos, centrat pe pagină */
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap; /* Asigură că toate elementele sunt pe același rând */
+  width: 100%; /* Lățimea 100% a div-ului părinte */
+}
+
+.stats-item {
+  background: white; /* Fundal alb pentru fiecare element */
+  border-radius: 8px; /* Rounding corners */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Umbra mai mică pentru un efect de adâncime */
+  margin: 10px; /* Spațiu între elemente */
+  padding: 15px; /* Padding mai mic */
+  text-align: center; /* Alinierea textului la centru */
+  flex: 1; /* Permite elementelor să aibă aceeași lățime */
+  min-width: 150px; /* Lățime minimă pentru elemente */
+}
+
+.stats-item__index {
+  font-size: 20px; /* Dimensiune mai mică pentru cifra */
+  font-weight: bold; /* Font îngroșat pentru evidențiere */
+}
+
+.stats-item__subheader {
+  font-size: 14px; /* Dimensiune pentru subheader */
+  margin-top: 5px; /* Spațiu mai mic deasupra subheader-ului */
+}
+
+.stats-item__desc {
+  font-size: 12px; /* Dimensiune mai mică pentru descriere */
+  color: #666; /* Culoare gri deschis pentru descriere */
+}
+
+/* Media queries pentru responsive design */
+@media (max-width: 768px) {
+  .stats {
+    flex-wrap: wrap; /* Permite înfășurarea pe ecrane mai mici */
+  }
+
+  .stats-item {
+    flex: 1 1 45%; /* 2 pe rând pe ecrane mai mici */
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-item {
+    flex: 1 1 100%; /* 1 pe rând pe telefoane */
+  }
 }

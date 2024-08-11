@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Sanda Pascu</title>
+    <script src="loadConfig.js"></script>
     <link rel="stylesheet" href="formular.css" />
     <style>
       .error-icon {
@@ -14,9 +15,17 @@
     </style>
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script>
-      (function () {
-        emailjs.init('uwYHluAmxVMiZptgq'); // Înlocuiește cu ID-ul tău de utilizator
-      })();
+      // Aici vom inițializa emailjs după ce încărcăm configurația
+      let config = {};
+      fetch('config.json')
+        .then(response => response.json())
+        .then(data => {
+          config = data;
+          emailjs.init(config.USER_ID); // Folosește USER_ID din config
+        })
+        .catch(error =>
+          console.error('Eroare la încărcarea configurării:', error)
+        );
     </script>
   </head>
   <body>
@@ -101,6 +110,7 @@
 
       function trimiteEmail(event) {
         event.preventDefault(); // Previne comportamentul standard de trimitere a formularului
+        console.log(config.USER_ID);
 
         if (!valideazăFormularul()) return; // Verifică validarea formularului
 
@@ -117,8 +127,9 @@
           stair_number: document.getElementById('stair-number').value,
         };
 
+        // Folosește SERVICE_KEY și TEMPLATE_KEY din config
         emailjs
-          .send('service_2ojif6k', 'template_8dhhbbg', templateParams)
+          .send(config.SERVICE_KEY, config.TEMPLATE_KEY, templateParams)
           .then(
             function (response) {
               console.log(

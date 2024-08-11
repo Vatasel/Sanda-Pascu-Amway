@@ -244,6 +244,7 @@ h2 {
   margin-left: auto;
   border: none;
   background-color: transparent;
+  margin-top: -60px;
 }
 
 .cart-modal {

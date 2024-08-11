@@ -1,0 +1,116 @@
+body {
+  background: linear-gradient(
+    to bottom,
+    white,
+    white,
+    #c9dfe8,
+    #c9dfe8,
+    #c9dfe8,
+    #a7d6e9,
+    #a7d6e9,
+    #02aab0,
+    #02aab0,
+    #02aab0,
+    #097967,
+    #097967,
+    #044243,
+    #044243
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.menu-button1,
+.menu-button2,
+.menu-button3,
+.menu-button4 {
+  background-image: linear-gradient(
+    to right,
+    #02aab0 0%,
+    #097967 51%,
+    #044243 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  width: 120px;
+  height: 76px;
+  margin-left: -1px;
+}
+.menu-button1 {
+  border-radius: 15px 0 0 15px;
+  margin-left: 200px;
+}
+.menu-button2,
+.menu-button3 {
+  border-radius: 0;
+}
+.menu-button4 {
+  border-radius: 0 15px 15px 0;
+  border-right: none;
+  margin-right: 365px;
+}
+.menu-image {
+  border-style: solid;
+  border-radius: 50%;
+  border: 5.7px solid rgb(17, 144, 166);
+  width: 125px;
+  height: 125px;
+  margin-right: 100px;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.contact-container h1 {
+  margin-bottom: 110px; /* Ajustează valoarea pentru a schimba spațiul */
+}
+.contact-methods {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.contact-method {
+  text-align: center;
+  width: 130px; /* Setează o lățime fixă pentru toate casetele */
+  height: 150px; /* Setează o înălțime fixă pentru toate casetele */
+  margin: 0 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+}
+.details h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+.details p {
+  margin-top: 5px;
+  color: #777;
+  font-size: 16px;
+}

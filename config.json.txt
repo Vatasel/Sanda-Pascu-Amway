@@ -1,0 +1,5 @@
+{
+  "SERVICE_KEY": "service_2ojif6k",
+  "TEMPLATE_KEY": "template_8dhhbbg",
+  "ANOTHER_KEY": "uwYHluAmxVMiZptgq"
+}
