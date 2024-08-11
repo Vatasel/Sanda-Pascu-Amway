@@ -58,7 +58,7 @@ body {
 
 .menu-button1 {
   border-radius: 15px 0 0 15px;
-  margin-left: 200px;
+  margin-left: 350px;
 }
 
 .menu-button2,
@@ -113,4 +113,24 @@ body {
 
 .form-container input[type='submit']:hover {
   background-color: #45a049;
+}
+.cart-modal-list {
+  color: #00ff33; /* Culoarea verde pentru text */
+}
+
+.cart-modal-list li {
+  border-bottom: 1px solid #eee;
+  margin-top: 10px; /* Pauză de 10px între elemente */
+}
+
+.cart-modal-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.paragraf-anulare-comanda {
+  color: red;
+}
+.paragraf-taxa-transport {
+  color: rgb(185, 5, 5);
 }

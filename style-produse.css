@@ -157,7 +157,7 @@ h2 {
   outline: 0;
   padding: 12px;
   color: #ff0000;
-  background-color: #00ff33;
+  background-color: #0cc1a3;
   text-align: center;
   cursor: pointer;
   width: 75%;
@@ -204,6 +204,7 @@ h2 {
 .card-description {
   margin-bottom: 75px;
 }
+
 .cart-modal {
   display: none; /* Inițial ascuns */
   position: fixed;
@@ -347,4 +348,23 @@ h2 {
   cursor: pointer; /* Cursor pointer pentru X */
   color: red; /* Culoarea pentru X */
   font-weight: bold; /* Greutate font pentru X */
+}
+.button-frumusete {
+  background-color: #ffb6c1; /* Culoare pentru Frumusețe */
+  color: #fff;
+}
+
+.button-locuinta {
+  background-color: #87cefa; /* Culoare pentru Locuință */
+  color: #fff;
+}
+
+.button-ingrijire {
+  background-color: #ffd700; /* Culoare pentru Îngrijire personală */
+  color: #fff;
+}
+.button-disabled {
+  background-color: gray; /* Culoare gri pentru butoanele dezactivate */
+  color: #fff; /* Culoarea textului */
+  cursor: not-allowed; /* Cursorul indică că nu se poate face clic */
 }

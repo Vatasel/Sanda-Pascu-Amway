@@ -13,7 +13,10 @@
         font-weight: bold;
       }
     </style>
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
     <script>
       // Aici vom inițializa emailjs după ce încărcăm configurația
       let config = {};
@@ -21,7 +24,7 @@
         .then(response => response.json())
         .then(data => {
           config = data;
-          emailjs.init(config.USER_ID); // Folosește USER_ID din config
+          emailjs.init(config.PUBLIC_KEY); // Folosește PUBLIC_KEY din config
         })
         .catch(error =>
           console.error('Eroare la încărcarea configurării:', error)
@@ -79,6 +82,17 @@
 
         <input type="submit" value="Trimite" />
       </form>
+      <ul id="cart-modal-list"></ul>
+      <div style="display: flex; flex-direction: row">
+        <div class="pret-total" id="pret-total"></div>
+      </div>
+      <p class="paragraf-anulare-comanda">
+        In cazul in care se doreste anularea comenzii, luati legatura prin
+        e-mail sau numar de telefon(vezi secitiunea contact).
+      </p>
+      <p class="paragraf-taxa-transport">
+        Peste 200 de lei, transportul este gratuit!
+      </p>
     </div>
 
     <script>
@@ -110,9 +124,20 @@
 
       function trimiteEmail(event) {
         event.preventDefault(); // Previne comportamentul standard de trimitere a formularului
-        console.log(config.USER_ID);
 
         if (!valideazăFormularul()) return; // Verifică validarea formularului
+
+        // Construiește un text pentru produsele din coș
+        let produseDinCos = '';
+        cosCumparaturi.forEach((item, index) => {
+          produseDinCos += `
+      Produs ${index + 1}:
+      Nume: ${item[0]}
+      Preț: ${item[1]} RON
+      Comandă: ${item[2]}
+      \n
+    `;
+        });
 
         const templateParams = {
           last_name: document.getElementById('last-name').value,
@@ -125,6 +150,7 @@
           postal_code: document.getElementById('postal-code').value,
           block_number: document.getElementById('block-number').value,
           stair_number: document.getElementById('stair-number').value,
+          products: produseDinCos, // Adaugă produsele la templateParams
         };
 
         // Folosește SERVICE_KEY și TEMPLATE_KEY din config
@@ -148,6 +174,61 @@
           );
 
         document.getElementById('myForm').reset(); // Resetează formularul după trimitere
+      }
+      let cosCumparaturi = [];
+      document.addEventListener('DOMContentLoaded', function () {
+        const cartData = localStorage.getItem('cosCumparaturi');
+        if (cartData) {
+          cosCumparaturi = JSON.parse(cartData);
+          console.log(cosCumparaturi);
+          openCart();
+          // Aici poți să lucrezi cu coșul de cumpărături
+          // Poți să adaugi logica ta pentru a afișa produsele sau a le procesa
+        }
+      });
+
+      function openCart() {
+        // const cartModal = document.getElementById('cart-modal');
+        // cartModal.style.display = 'block'; // Afișează modalul
+        updateCart(); // Actualizăm lista de produse
+      }
+
+      function updateCart() {
+        const cartItemsList = document.getElementById('cart-modal-list');
+        cartItemsList.innerHTML = ''; // Golește lista de produse
+
+        let totalPrice = 0; // Variabilă pentru suma totală
+
+        // Adaugă produsele în coș
+        cosCumparaturi.forEach((item, index) => {
+          const price = parseFloat(item[1]); // Convertim prețul la număr
+          totalPrice += price; // Adăugăm prețul la suma totală
+
+          const li = document.createElement('li');
+          li.className = 'cart-item'; // Adaugă o clasă pentru stilizare
+          li.innerHTML = `
+      <span onclick="removeFromCart(${index})" style="cursor: pointer; color: red; font-weight: bold;">X</span>
+      <div>
+        <strong>Name:</strong> ${item[0]}<br>
+        <strong>Price:</strong> ${price} RON<br>
+        <strong>Command:</strong> ${item[2]}<br><br>
+      </div>
+    `;
+          cartItemsList.appendChild(li);
+        });
+
+        // Actualizăm suma totală în elementul cu id-ul 'pret-total'
+        const totalElement = document.getElementById('pret-total');
+        totalElement.innerHTML = `Total: ${totalPrice.toFixed(2)} RON`; // Formatează la 2 zecimale
+      }
+      function saveCartToLocalStorage() {
+        localStorage.setItem('cosCumparaturi', JSON.stringify(cosCumparaturi));
+      }
+      function removeFromCart(index) {
+        // Elimină elementul din coș folosind indexul
+        cosCumparaturi.splice(index, 1);
+        saveCartToLocalStorage(); // Salvează coșul după ștergere
+        updateCart(); // Actualizează coșul după ștergere
       }
     </script>
   </body>

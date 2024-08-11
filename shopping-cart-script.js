@@ -1498,7 +1498,7 @@ const arrayProduse = {
       description: 'Dimensiuni: 90 tablete(vitamina D) ',
       price: '101,57',
     },
-  ], // Exemplu pentru o altă categorie
+  ],
 };
 
 let categorieProduse = 'Nutritie';
@@ -1546,7 +1546,7 @@ function generateProductCards() {
       <h1>${produs.name}</h1>
       <p class="price">${produs.price} RON</p>
       <p class="card-description">${produs.description}</p>
-      <button onclick="addToCart('${produs.name}', '${produs.price}', '${produs.command_number}')">Add to Cart</button>
+      <button onclick="addToCart('${produs.name}', '${produs.price}', '${produs.command_number}')">Adaugă în coș</button>
     `;
     productContainer.appendChild(card);
   });
@@ -1703,6 +1703,7 @@ function closeCart() {
 function removeFromCart(index) {
   // Elimină elementul din coș folosind indexul
   cosCumparaturi.splice(index, 1);
+  saveCartToLocalStorage(); // Salvează coșul după ștergere
   updateCart(); // Actualizează coșul după ștergere
 }
 
@@ -1752,4 +1753,11 @@ function adjustNotificationPositions() {
   notifications.forEach((notif, index) => {
     notif.style.bottom = `${20 + index * 60}px`; // Recalculează poziția fiecărei notificări
   });
+}
+function checkout() {
+  // Salvează coșul de cumpărături în localStorage
+  localStorage.setItem('cosCumparaturi', JSON.stringify(cosCumparaturi));
+
+  // Redirecționează utilizatorul către pagina formularului
+  window.location.href = 'formular.html';
 }
