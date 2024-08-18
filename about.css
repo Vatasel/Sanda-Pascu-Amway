@@ -44,27 +44,6 @@
   margin-bottom: 10px;
 }
 
-
-.main-content {
-  width: 100%;
-}
-
-.image-container {
-  width: 85%;
-}
-
-#poza-sanda-1 {
-  width: 100%;
-  max-width: 1200px;
-  height: 600px;
-  object-fit: cover;
-  padding: 5px;
-  border: 5px solid #065659;
-  border-radius: 10px;
-  filter: grayscale(77%);
-}
-
-
 @media only screen and (max-width: 600px) {
   .menu-container {
     grid-template-columns: repeat(2, auto);
