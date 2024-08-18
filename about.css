@@ -1,50 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  scroll-behavior: smooth; /* Scroll fluid */
-  background: linear-gradient(
-    to bottom,
-    white,
-    white,
-    #c9dfe8,
-    #c9dfe8,
-    #c9dfe8,
-    #a7d6e9,
-    #a7d6e9,
-    #02aab0,
-    #02aab0,
-    #02aab0,
-    #097967,
-    #097967,
-    #044243,
-    #044243
-  );
-}
-
-.scroll-container {
-  scroll-snap-type: y mandatory; /* Activează scroll snapping pe axa verticală */
-  overflow-y: scroll;
-  height: 100vh; /* Containerul să ocupe întreaga înălțime a viewport-ului */
-}
-
-.section {
-  scroll-snap-align: start; /* Alinierea secțiunilor la început */
-  height: 100vh; /* Fiecare secțiune să ocupe întreaga înălțime a viewport-ului */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.menu-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
 /* Stiluri pentru butoane */
 .menu-button1,
 .menu-button2,
@@ -59,15 +12,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  width: 120px;
+  width: 140px;
   height: 76px;
-  margin-left: -1px;
 }
 
 .menu-button1 {
@@ -84,10 +35,22 @@ body {
   border-right: none;
 }
 
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+.main-content {
+  width: 100%;
+}
+
 .image-container {
-  position: relative;
   width: 85%;
-  margin: auto;
 }
 
 #poza-sanda-1 {
@@ -101,157 +64,21 @@ body {
   filter: grayscale(77%);
 }
 
-.overlay-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 55px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  text-align: center;
-}
 
-/* Container pentru sidebar și text-box */
-.content-container {
-  display: flex;
-  justify-content: flex-start;
-  margin: 20px auto;
-  width: 100%;
-  margin-left: 107px;
-  height: auto;
-}
-
-/* Sidebar pe partea stângă */
-.sidebar {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-left: 5px;
-}
-
-.vertical-image img {
-  width: 350px;
-  height: 450px;
-  border: 5px solid #044243;
-  border-radius: 10px;
-}
-
-/* Text-box pe partea dreaptă */
-.text-box {
-  padding: 10px;
-  border: 5px solid #044243;
-  border-radius: 10px;
-  background-color: #f0f0f0;
-  width: 820px;
-  margin-left: 5px;
-  display: inline-block;
-  background-color: antiquewhite;
-  font-size: 25px;
-  text-align: center;
-}
-
-.despre-amway {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
-  margin-left: -10px;
-  text-align: center; /* Adaugă această linie pentru a centra textul */
-}
-
-.image-container-amway {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-#poza-amway-prezentare {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  border: 5px solid #044243;
-  margin-left: -11px;
-}
-
-.text-box-amway {
-  width: 100%;
-  max-width: 1200px;
-  padding: 20px;
-  margin-top: 10px;
-  background-color: antiquewhite;
-  border: 2px solid #044243;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.image-container-amway img {
-  transition: transform 0.3s ease, filter 0.3s ease; /* Animație pentru transformare și filtru */
-}
-
-.image-container-amway img:hover {
-  transform: scale(1.05); /* Scalează imaginea cu 5% */
-  filter: brightness(80%); /* Întunecă imaginea cu 20% */
-}
-.stats-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 20px; /* Padding pentru a se potrivi cu cel de sus */
-  background-color: antiquewhite; /* Culoare similară cu cea a chenarului "Despre Amway" */
-  border: 1px solid #c0d6e8; /* Border pentru a delimita div-ul */
-  border-radius: 8px; /* Rounding corners */
-  max-width: 800px; /* Lățime maximă mai mică */
-  margin: 25px auto; /* 40px margin pe sus și jos, centrat pe pagină */
-}
-
-.stats {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap; /* Asigură că toate elementele sunt pe același rând */
-  width: 100%; /* Lățimea 100% a div-ului părinte */
-}
-
-.stats-item {
-  background: white; /* Fundal alb pentru fiecare element */
-  border-radius: 8px; /* Rounding corners */
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Umbra mai mică pentru un efect de adâncime */
-  margin: 10px; /* Spațiu între elemente */
-  padding: 15px; /* Padding mai mic */
-  text-align: center; /* Alinierea textului la centru */
-  flex: 1; /* Permite elementelor să aibă aceeași lățime */
-  min-width: 150px; /* Lățime minimă pentru elemente */
-}
-
-.stats-item__index {
-  font-size: 20px; /* Dimensiune mai mică pentru cifra */
-  font-weight: bold; /* Font îngroșat pentru evidențiere */
-}
-
-.stats-item__subheader {
-  font-size: 14px; /* Dimensiune pentru subheader */
-  margin-top: 5px; /* Spațiu mai mic deasupra subheader-ului */
-}
-
-.stats-item__desc {
-  font-size: 12px; /* Dimensiune mai mică pentru descriere */
-  color: #666; /* Culoare gri deschis pentru descriere */
-}
-
-/* Media queries pentru responsive design */
-@media (max-width: 768px) {
-  .stats {
-    flex-wrap: wrap; /* Permite înfășurarea pe ecrane mai mici */
+@media only screen and (max-width: 600px) {
+  .menu-container {
+    grid-template-columns: repeat(2, auto);
   }
-
-  .stats-item {
-    flex: 1 1 45%; /* 2 pe rând pe ecrane mai mici */
+  .menu-button1 {
+    border-radius: 15px 0 0 0;
   }
-}
-
-@media (max-width: 480px) {
-  .stats-item {
-    flex: 1 1 100%; /* 1 pe rând pe telefoane */
+  .menu-button4 {
+    border-radius: 0 0 15px 0;
+  }
+  .menu-button1,
+  .menu-button2,
+  .menu-button3,
+  .menu-button4 {
+    width: 150px;
   }
 }
