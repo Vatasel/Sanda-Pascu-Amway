@@ -1,9 +1,39 @@
-.menu-container {
+@media only screen and (max-width: 600px) {
+  .menu-container {
+    grid-template-columns: repeat(2, auto);
+  }
+  .menu-button1 {
+    border-radius: 15px 0 0 0;
+  }
+  .menu-button4 {
+    border-radius: 0 0 15px 0;
+  }
+  .menu-button1,
+  .menu-button2,
+  .menu-button3,
+  .menu-button4 {
+    width: 150px;
+  }
+  .header {
+    flex-direction: column;
+  }
+}
+
+.header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center; /* Centrare orizontală a meniului */
-  padding: 10px;
-  margin-bottom: 20px; /* Spațiu între meniu și slideshow */
+  flex-direction: row;
+  width: 95%;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 /* Stiluri pentru butoane */
@@ -20,20 +50,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  width: 120px;
+  width: 140px;
   height: 76px;
-  margin-left: -1px; /* Eliminarea spațiului dintre butoane */
 }
 
 .menu-button1 {
   border-radius: 15px 0 0 15px;
-  margin-left: 200px;
 }
 
 .menu-button2,
@@ -43,8 +70,7 @@
 
 .menu-button4 {
   border-radius: 0 15px 15px 0;
-  border-right: none; /* Eliminarea bordurii pentru ultimul buton */
-  margin-right: 365px;
+  border-right: none;
 }
 
 /* Stiluri pentru imaginea rotundă */
@@ -54,7 +80,7 @@
   border: 5.7px solid rgb(17, 144, 166);
   width: 125px;
   height: 125px;
-  margin-right: 100px; /* Distanță între imagine și butoane */
+  /* margin-right: 100px; Distanță între imagine și butoane */
 }
 
 /* Container pentru slideshow */
@@ -135,8 +161,8 @@ body {
 .side-image {
   width: 100px; /* Dimensiunea imaginii, o poți ajusta */
   height: 63px; /* Poate fi ajustat pentru a păstra proporțiile */
-  margin-left: -245px; /* Distanța față de butoanele din meniu */
-  margin-right: 165px;
+  /* margin-left: -245px; /* Distanța față de butoanele din meniu */
+  /* margin-right: 165px; */
 }
 .prev,
 .next {

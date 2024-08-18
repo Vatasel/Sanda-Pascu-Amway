@@ -22,6 +22,24 @@ body {
   );
 }
 
+@media only screen and (max-width: 600px) {
+  .menu-container {
+    grid-template-columns: repeat(2, auto);
+  }
+  .menu-button1 {
+    border-radius: 15px 0 0 0;
+  }
+  .menu-button4 {
+    border-radius: 0 0 15px 0;
+  }
+  .menu-button1,
+  .menu-button2,
+  .menu-button3,
+  .menu-button4 {
+    width: 150px;
+  }
+}
+
 .scroll-container {
   scroll-snap-type: y mandatory; /* Activează scroll snapping pe axa verticală */
   overflow-y: scroll;
@@ -38,11 +56,12 @@ body {
 }
 
 .menu-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  width: 100%;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* Stiluri pentru butoane */
@@ -59,15 +78,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  width: 120px;
+  width: 140px;
   height: 76px;
-  margin-left: -1px;
 }
 
 .menu-button1 {
@@ -98,18 +115,18 @@ body {
   padding: 5px;
   border: 5px solid #065659;
   border-radius: 10px;
-  filter: grayscale(77%);
+  filter: grayscale(50%);
 }
 
 .overlay-text {
   position: absolute;
-  top: 50%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 55px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  text-align: center;
+  text-align: bottom;
 }
 
 /* Container pentru sidebar și text-box */

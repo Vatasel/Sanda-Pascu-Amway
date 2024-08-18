@@ -1040,156 +1040,168 @@ const arrayProduse = {
       price: '96,20 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Corector Perfecting Artistry EXACT FIT™ - Light Medium ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Corector Perfecting Artistry EXACT FIT™LightMedium.jpg_c26ec6c1-9d56-461c-b0f3-d0c333e1e079_rcv_IMAGE_product-image_600_600',
+      command_number: '120361',
+      description: 'Dimensiuni: 7.2 g  ',
+      price: '134,75 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Corector Perfecting Artistry EXACT FIT™ - Light ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Corector Perfecting Artistry EXACT FIT™Light.jpg_48c1798b-04a5-4478-a011-d114983f3efc_rcv_IMAGE_product-image_600_600',
+      command_number: '120360',
+      description: 'Dimensiuni: 7.2 g  ',
+      price: '134,75 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Corector Perfecting Artistry EXACT FIT™ - Medium ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Corector Perfecting Artistry EXACT FIT™Medium',
+      command_number: '120362',
+      description: 'Dimensiuni: 7.2 g  ',
+      price: '134,75 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Corector Perfecting Artistry EXACT FIT™ - brightener ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Corector Perfecting Artistry EXACT FIT™ - brightener.jpg_da519466-974b-411d-9506-279e60f13030_rcv_IMAGE_product-image_600_600',
+      command_number: '120365',
+      description: 'Dimensiuni: 7.2 g  ',
+      price: '134,75 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Creion de ochi rezistent la apă Artistry Go Vibrant™ - Natural Brown ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Creion de ochi rezistent la apă Artistry Go Vibrant™ Natural Brown.jpg',
+      command_number: '126741',
+      description: 'Dimensiuni: 0.1 g / 0.003 OZ  ',
+      price: '114,92 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Creion de ochi rezistent la apă Artistry Go Vibrant™ - Natural Black',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Creion de ochi rezistent la apă Artistry Go Vibrant™ Natural Black.jpg',
+      command_number: '126744',
+      description: 'Dimensiuni: 0.1 g / 0.003 OZ  ',
+      price: '114,92 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Cremă cu efect de ultra-lifting Artistry Skin Nutrition™ ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Cremă cu efect de ultra-lifting Artistry Skin Nutrition™.jpg',
+      command_number: '123786',
+      description:
+        'Dimensiuni: 50 g(conține semințe de chia albă cultivate de Nutrilite™, fruct de kiwi cu ramuri argintii si peptide pentru o buna hranire și hidratare a pielii)  ',
+      price: '377,57 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Cremă de corp iluminatoare Artistry Signature Select™ ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Cremă de corp iluminatoare Artistry Signature Select™',
+      command_number: '123862',
+      description:
+        'Dimensiuni: 200 g.(conține extract din semințe de chia albă provenite de la Nutrilite™, extract de cireșe Acerola provenite de la Nutrilite™, ulei de Luminița nopții (Evening primrose))  ',
+      price: '180,17 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Cremă de ochi reactivatoare Artistry Skin Nutrition™ ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Cremă de corp iluminatoare Artistry Signature Select™',
+      command_number: '123784',
+      description:
+        'Dimensiuni: 15 g(conține semințe de chia albă cultivate de Nutrilite™, extract de ovăz și peptide, toate acestea ajutând la hidratarea vizibilă și la protejarea frumuseții și sănătății pielii)  ',
+      price: '224,34 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Cremă de zi reactivatoare cu SPF 30 Artistry Skin Nutrition™ ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Cremă de zi reactivatoare cu SPF 30 Artistry Skin Nutrition™.jpg',
+      command_number: '123787',
+      description:
+        'Dimensiuni: 50 g(conține semințe de chia albă cultivate de Nutrilite™, unt de shea și carnosină, toate acestea ajutând la hidratarea,netezirea și catifelarea pielii, cât și la protejarea pielii împotriva luminii infraroșii și a celei albastre, ambele dăunătoare pielii)  ',
+      price: '343,22 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Cremă Iluminatoare CC Artistry Ideal Radiance™ - Light Medium',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Cremă Iluminatoare CC Artistry Ideal Radiance™LightMedium',
+      command_number: '118207',
+      description:
+        'Dimensiuni: 30 ml(conține extracte florale special alese din amestecul MultiFlora, proteine din perle, un sistem exclusiv de eliberare a lipozomilor și un complex multidimensional de finisare. Lipozomii conțin lemn dulce cu efect de calmare, ferment brevetat din cireșe acerola pentru un plus de luminozitate și ceramidă 3, cu rol de hidratare și protejare a tenului.)  ',
+      price: '212,83 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Cremă Iluminatoare CC Artistry Ideal Radiance™ - Light ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Corector Perfecting Artistry EXACT FIT™Light.jpg_48c1798b-04a5-4478-a011-d114983f3efc_rcv_IMAGE_product-image_600_600',
+      command_number: '118208',
+      description:
+        'Dimensiuni: 30 ml(conține extracte florale special alese din amestecul MultiFlora, proteine din perle, un sistem exclusiv de eliberare a lipozomilor și un complex multidimensional de finisare. Lipozomii conțin lemn dulce cu efect de calmare, ferment brevetat din cireșe acerola pentru un plus de luminozitate și ceramidă 3, cu rol de hidratare și protejare a tenului.)  ',
+      price: '212,83 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Cremă Iluminatoare CC Artistry Ideal Radiance™ - Medium ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Cremă Iluminatoare CC Artistry Ideal Radiance™Medium',
+      command_number: '119336',
+      description:
+        'Dimensiuni: 30 ml(conține extracte florale special alese din amestecul MultiFlora, proteine din perle, un sistem exclusiv de eliberare a lipozomilor și un complex multidimensional de finisare. Lipozomii conțin lemn dulce cu efect de calmare, ferment brevetat din cireșe acerola pentru un plus de luminozitate și ceramidă 3, cu rol de hidratare și protejare a tenului.)  ',
+      price: '212,83 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Cremă pentru ochi regenerantă Artistry Supreme LX™ ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Cremă pentru ochi regenerantă Artistry Supreme LX™',
+      command_number: '118185',
+      description:
+        'Dimensiuni: 15 ml(conține complexul CellEffect24 - celule stem din Gardenia Grandiflora, aur de 24 de karate, cardiolipine,extract din cireșe Acerola verzi și extract din frunze de spanac, dar și complexul Rhodiola )  ',
+      price: '796,85 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Cremă reactivatoare Artistry Skin Nutrition™ ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Cremă reactivatoare Artistry Skin Nutrition™.jpg',
+      command_number: '123785',
+      description:
+        'Dimensiuni: 50 g(conține semințe de chia albă cultivate de Nutrilite™, rozmarin și acid hialuronic)  ',
+      price: '343,22 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
-      image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+      name: 'Cremă regenerantă Artistry Supreme LX™ ',
+      image: 'pics/imaginiProduse/Cremă regenerantă Artistry Supreme LX™',
+      command_number: '118184',
+      description:
+        'Dimensiuni: 50 ml(conține complexul CellEffect24 - celule stem din Gardenia Grandiflora, aur de 24 de karate, cardiolipine,extract din cireșe Acerola verzi și extract din frunze de spanac, dar și complexul Rhodiola)  ',
+      price: '1.621,16 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Demachiant cremă Artistry Skin Nutrition™ ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Demachiant cremă Artistry Skin Nutrition™.jpg',
+      command_number: '123779',
+      description:
+        'Dimensiuni: 118 g(conține semințe de chia albă cultivate de Nutrilite™, ulei din semințe de trifoi, vitamina E)  ',
+      price: '121,15 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Demachiant micelar + Gel pentru curățare Artistry Skin Nutrition™ ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Demachiant micelar + Gel pentru curățare Artistry Skin Nutrition™.jpg',
+      command_number: '123791',
+      description:
+        'Dimensiuni: 200 ml(conține semințe de chia albă cultivate de Nutrilite™, extract de pepene verde și micelii)  ',
+      price: '121,15 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Demachiant spumă Artistry Skin Nutrition™ ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Demachiant spumă Artistry Skin Nutrition™.jpg',
+      command_number: '123781',
+      description:
+        'Dimensiuni: 125 g(conține semințe de chia albă cultivate de Nutrilite™, glicerina și aminoacizi)  ',
+      price: '140,24',
     },
     {
       name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
