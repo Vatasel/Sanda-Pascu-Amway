@@ -1204,116 +1204,610 @@ const arrayProduse = {
       price: '140,24',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
-      image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+      name: 'Dispozitiv dermasonic Artistry™ ',
+      image: 'pics/imaginiProduse/Dispozitiv dermasonic Artistry™',
+      command_number: '122147',
+      description:
+        'Dimensiuni: 1 unitate(prevăzută cu 2 lame - lama ultrasonică și  capul Derma Ion Galvanic. Dispozitivul dermasonic Artistry™ curăță în profunzime porii, folosind vibrații ultrasonice cu o frecvență de 30.000 Hz, în timp ce Derma Ion Galvanic masează tenul pentru ca  ingredientele speciale de îngrijire să pătrundă în straturile cele mai profunde ale epidermei. )  ',
+      price: '1.504,45 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
-      image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+      name: 'Dispozitiv dermasonic Ultimate Eye ',
+      image: 'pics/imaginiProduse/Dispozitiv dermasonic Ultimate Eye',
+      command_number: '297979',
+      description:
+        'Dimensiuni: 1 bucată - Maximizează beneficiile produselor Artistry™ de îngrijire a ochilor cu Artistry Dermasonic Ultimate Eye, făcând ca ingredientele lor să pătrundă în profunzime în piele. Pentru utilizare împreună cu Dispozitivul dermasonic Artistry(Dispozitivul poate fi folosit pentru a stimula în mod sănătos alte zone greu accesibile, cum ar fi în jurul nasului și ridurile de expresie cauzate de râs).  ',
+      price: '348,86 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
-      image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+      name: 'Fond de ten rezistent Artistry EXACT FIT™ - Nuanta L1*N1 Bisque',
+      image: 'pics/imaginiProduse/Fond de ten rezistent Artistry EXACT FIT™',
+      command_number: '117688',
+      description:
+        'Dimensiuni: 30 ml(Conține formula Artistry EXACT FIT - perle tahitiene și prisme optice într-un echilibru perfect, cât și apă din fiordurile norvegiene)  ',
+      price: '225,02 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Fond de ten rezistent Artistry EXACT FIT™ - Nuanta L1*W1 Buff ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Fond de ten rezistent Artistry EXACT FIT™ buff',
+      command_number: '117689',
+      description:
+        'Dimensiuni: 30 ml(Conține formula Artistry EXACT FIT - perle tahitiene și prisme optice într-un echilibru perfect, cât și apă din fiordurile norvegiene)  ',
+      price: '225,02 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Fond de ten rezistent Artistry EXACT FIT™ - Nuanta L1*W2 Cream',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Fond de ten rezistent Artistry EXACT FIT™ cream',
+      command_number: '117690',
+      description:
+        'Dimensiuni: 30 ml(Conține formula Artistry EXACT FIT - perle tahitiene și prisme optice într-un echilibru perfect, cât și apă din fiordurile norvegiene)  ',
+      price: '225,02 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Fond de ten rezistent Artistry EXACT FIT™ - Nuanta L2*C1 Chiffon ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Fond de ten rezistent Artistry EXACT FIT™ chiffon',
+      command_number: '117691',
+      description:
+        'Dimensiuni: 30 ml(Conține formula Artistry EXACT FIT - perle tahitiene și prisme optice într-un echilibru perfect, cât și apă din fiordurile norvegiene)  ',
+      price: '225,02 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Fond de ten rezistent Artistry EXACT FIT™ - Nuanta L2*W1 Sand ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Fond de ten rezistent Artistry EXACT FIT™ sand',
+      command_number: '117694',
+      description:
+        'Dimensiuni: 30 ml(Conține formula Artistry EXACT FIT - perle tahitiene și prisme optice într-un echilibru perfect, cât și apă din fiordurile norvegiene)  ',
+      price: '225,02 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Fond de ten rezistent Artistry EXACT FIT™ - Nuanta L3*N1 Tawny ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Fond de ten rezistent Artistry EXACT FIT™tawny ',
+      command_number: '117696',
+      description:
+        'Dimensiuni: 30 ml(Conține formula Artistry EXACT FIT - perle tahitiene și prisme optice într-un echilibru perfect, cât și apă din fiordurile norvegiene)  ',
+      price: '225,02 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Fond de ten rezistent Artistry EXACT FIT™ - Nuanta L5*W1 Cappuccino ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Fond de ten rezistent Artistry EXACT FIT™ cappuccino',
+      command_number: '117703',
+      description:
+        'Dimensiuni: 30 ml(Conține formula Artistry EXACT FIT - perle tahitiene și prisme optice într-un echilibru perfect, cât și apă din fiordurile norvegiene)  ',
+      price: '225,02 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
-      image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+      name: 'Gel cremă Artistry Skin Nutrition™ ',
+      image: 'pics/imaginiProduse/Gel cremă Artistry Skin Nutrition™.jpg',
+      command_number: '123798',
+      description:
+        'Dimensiuni: 50g(Conține semințe de chia albă cultivate de Nutrilite™, agavă albastră și proteină din orez )  ',
+      price: '178,92 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Gel cremă pentru hidratare + booster antioxidant Artistry Studio™ ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Gel cremă pentru hidratare + booster antioxidant Artistry Studio™.jpg',
+      command_number: '125966',
+      description:
+        'Dimensiuni: Tub: 50 ml(gelul cremă hidratează, calmează și iluminează tenul pentru a-i reda strălucirea) ',
+      price: '135,86 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Gel de duș purifiant pentru corp Artistry Signature Select™ ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Gel de duș purifiant pentru corp Artistry Signature Select™',
+      command_number: '123859',
+      description:
+        'Dimensiuni: 200 g(Conține extract de citrice provenit de la Nutrilite™, ulei de Perilla, ulei de Luminița nopții/Evening primrose)  ',
+      price: '133,46 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Gel exfoliant pentru corp Artistry Signature Select™ ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Gel exfoliant pentru corp Artistry Signature Select™',
+      command_number: '123860',
+      description:
+        'Dimensiuni: 197 g(Conține extract din coacăze negre provenit de la Nutrilite™, ulei de acai, ulei de Luminița nopții/Evening primrose, ulei de Perilla, granule de bambus pisate fin)  ',
+      price: '166,84 ',
     },
     {
-      name: 'Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++ - Nuanta Espresso ',
+      name: 'Gel hidratant pentru corp Artistry Signature Select™ ',
       image:
-        'pics/imaginiProduse/Artistry™ Future Glow™ Fond de ten ser SPF 35 PA++Espresso.jpg',
-      command_number: '126734',
-      description: 'Dimensiuni: 30 ml / 35g / 1,01442 Fl. Oz.  ',
-      price: '284,23 ',
+        'pics/imaginiProduse/Gel hidratant pentru corp Artistry Signature Select™',
+      command_number: '123858',
+      description:
+        'Dimensiuni: 200 g(Conține extract din ceai verde provenit de la Nutrilite™, extract din floare de piersic, ulei de Perilla, ulei de Luminița nopții/Evening primrose)  ',
+      price: '153,49 ',
+    },
+    {
+      name: 'Gel pentru curățare + exfoliant Artistry Studio™ ',
+      image:
+        'pics/imaginiProduse/Gel pentru curățare + exfoliant Artistry Studio™.jpg',
+      command_number: '124812',
+      description:
+        'Dimensiuni: Tub de 125 ml(Conține aloe vera și semințe de bambus)  ',
+      price: '105,46 ',
+    },
+    {
+      name: 'Gel-cremă pentru ochi Artistry Skin Nutrition™ ',
+      image:
+        'pics/imaginiProduse/Gel-cremă pentru ochi Artistry Skin Nutrition™.jpg',
+      command_number: '123796',
+      description:
+        'Dimensiuni: 200 g(Conține semințe de chia albă cultivate de Nutrilite™, semințele de quinoa și difuzori optici)  ',
+      price: '160,45 ',
+    },
+    {
+      name: 'Kit anti-pete Artistry Signature Select™',
+      image: 'pics/imaginiProduse/Kit anti-pete Artistry Signature Select™',
+      command_number: '123758',
+      description:
+        'Dimensiuni: 24 ml + 2 ml(Datorită amestecului său puternic de ingrediente de albire/iluminare, kitul anti-pete ajută la reducerea vizibilă a dimensiunii, culorii și numărului de pete închise la culoare)  ',
+      price: '423,44 ',
+    },
+    {
+      name: 'Kit antirid Artistry Signature Select™ ',
+      image: 'pics/imaginiProduse/Kit antirid Artistry Signature Select™',
+      command_number: '123756',
+      description:
+        'Dimensiuni:  24 ml + 2 ml(Kitul antirid reduce aspectul liniilor fine și al ridurilor cu ajutorul Tehnologiei de reducere a liniilor. Un foto-bioreactor produce un ingredient antirid foarte eficient din alge care întărește rețeaua de susținere a epidermei și energizează tenul pentru a menține un aspect tânăr și sănătos)  ',
+      price: '390,88 ',
+    },
+    {
+      name: 'Kit hidratare Artistry Signature Select™ ',
+      image: 'pics/imaginiProduse/Kit hidratare Artistry Signature Select™',
+      command_number: '123754',
+      description:
+        'Dimensiuni: 24 ml + 2 ml(Kitul pentru hidratare crește nivelul de hidratare a tenului în mai multe feluri. Noua Tehnologie Hidro-Probiotică este o „premieră” pentru gama de produse de îngrijire a tenului Artistry™. Aceasta îmbunătățește microflora benefică de la suprafața tenului, pentru o barieră de hidratare puternică și sănătoasă)  ',
+      price: '358,28 ',
+    },
+    {
+      name: 'Kit luminozitate Artistry Signature Select™ ',
+      image: 'pics/imaginiProduse/Kit luminozitate Artistry Signature Select™',
+      command_number: '123755',
+      description:
+        'Dimensiuni: 24 ml + 2 mlKitul pentru luminozitate* redă luminozitate tenului cu ajutorul tehnologiei inovatoare pe care se bazează și ingredientelor sale. Tehnologia de reînnoire a luminozității a fost dezvoltată ca un nou ingredient din domeniul biotehnologiei marine. Aceasta susține regenerarea celulelor pielii și controlează factorii cheie care duc la apariția tenului tern și a nuanței neuniforme a tenului.)  ',
+      price: '390,889 ',
+    },
+    {
+      name: 'Kit tonifiere Artistry Signature Select™ ',
+      image: 'pics/imaginiProduse/Kit tonifiere Artistry Signature Select™',
+      command_number: '123757',
+      description:
+        'Dimensiuni: 24 ml + 2 ml(Amplificatorul de tonifiere tonifică semnificativ și îmbunătățește aspectul tenului. Tehnologia de tonifiere a tenului este o „premieră” pentru gama Artistry™ de îngrijire a tenului, îmbunătățind structura naturală care dă fermitate și elasticitate tenului. De asemenea, susține formarea unei structuri strânse care asigură un ten mai rezistent, cu aspect tonifiat)  ',
+      price: '423,44 ',
+    },
+    {
+      name: 'Loțiune de corp tonifiantă Artistry Signature Select™ ',
+      image:
+        'pics/imaginiProduse/Loțiune de corp tonifiantă Artistry Signature Select™',
+      command_number: '123861',
+      description:
+        'Dimensiuni: 200 g(Conține extract de rodie provenit de la Nutrilite™, ulei din boabe de cafea, cafeină, extract de alge)  ',
+      price: '226,91 ',
+    },
+    {
+      name: 'Loțiune de zi cu SPF 30 Artistry Skin Nutrition™ ',
+      image:
+        'pics/imaginiProduse/Loțiune de zi cu SPF 30 Artistry Skin Nutrition™.jpg',
+      command_number: '123800',
+      description:
+        'Dimensiuni: 50 g(Conține semințe de chia albă cultivate de Nutrilite™, alge roșii, carnosină )  ',
+      price: '178,92 ',
+    },
+    {
+      name: 'Loțiune de zi reactivatoare cu SPF 30 Artistry Skin Nutrition™',
+      image:
+        'pics/imaginiProduse/Loțiune de zi reactivatoare cu SPF 30 Artistry Skin Nutrition™.jpg',
+      command_number: '123857',
+      description:
+        'Dimensiuni: 50 g(Conține semințe de chia albă cultivate de Nutrilite™, unt de shea, carnosină)  ',
+      price: '343,22 ',
+    },
+    {
+      name: 'Loțiune tonică pentru catifelare Artistry Skin Nutrition™',
+      image:
+        'pics/imaginiProduse/Loțiune tonică pentru catifelare Artistry Skin Nutrition™.jpg',
+      command_number: '123783',
+      description:
+        'Dimensiuni: 200 ml(Conține semințe de chia albă cultivate de Nutrilite™, proteină de ovăz, probiotice)  ',
+      price: '168,28 ',
+    },
+    {
+      name: 'Loțiune tonică pentru uniformizare Artistry Skin Nutrition™ ',
+      image:
+        'pics/imaginiProduse/Loțiune tonică pentru uniformizare Artistry Skin Nutrition™.jpg',
+      command_number: '123795',
+      description:
+        'Dimensiuni: 200 ml(Conține semințe de chia albă cultivate de Nutrilite™, lemn dulce, probiotice)  ',
+      price: '103,69 ',
+    },
+    {
+      name: 'Loțiune tonică revigorantă anti-imperfecțiuni Artistry Studio™ ',
+      image:
+        'pics/imaginiProduse/Loțiune tonică revigorantă anti-imperfecțiuni Artistry Studio™.jpg',
+      command_number: '124813',
+      description:
+        'Dimensiuni: flacon de 200 ml(Conține un complex de ingrediente care calmează și revigorează, oferindu-i tenului tău echilibrul perfect dintre zen și energie)  ',
+      price: '108,78 ',
+    },
+    {
+      name: 'Luciu de buze Light Up Artistry SIGNATURE COLOR™ - Nuanța Pink Nude ',
+      image:
+        'pics/imaginiProduse/Luciu de buze Light Up Artistry SIGNATURE COLOR™pinknude',
+      command_number: '118566',
+      description:
+        'Dimensiuni: 6 g(Luciul de buze Artistry SIGNATURE COLOR Light Up are un conținut bogat de uleiuri de jojoba și avocado, pentru un efect intens de hidratare)  ',
+      price: '117,14 ',
+    },
+    {
+      name: 'Luciu de buze Light Up Artistry SIGNATURE COLOR™ - Nuanța Juicy Peach ',
+      image:
+        'pics/imaginiProduse/Luciu de buze Light Up Artistry SIGNATURE COLOR™ juicypeach',
+      command_number: '118567',
+      description:
+        'Dimensiuni: 6 g(Luciul de buze Artistry SIGNATURE COLOR Light Up are un conținut bogat de uleiuri de jojoba și avocado, pentru un efect intens de hidratare)  ',
+      price: '117,14 ',
+    },
+    {
+      name: 'Luciu de buze Light Up Artistry SIGNATURE COLOR™ - Nuanța Sweet Melon',
+      image:
+        'pics/imaginiProduse/Luciu de buze Light Up Artistry SIGNATURE COLOR™ sweetmelon',
+      command_number: '118568',
+      description:
+        'Dimensiuni: 6 g(Luciul de buze Artistry SIGNATURE COLOR Light Up are un conținut bogat de uleiuri de jojoba și avocado, pentru un efect intens de hidratare)  ',
+      price: '117,14 ',
+    },
+    {
+      name: 'Luciu de buze Light Up Artistry SIGNATURE COLOR™ - Nuanța Real Red ',
+      image:
+        'pics/imaginiProduse/Luciu de buze Light Up Artistry SIGNATURE COLOR™realred',
+      command_number: '118569',
+      description:
+        'Dimensiuni: 6 g(Luciul de buze Artistry SIGNATURE COLOR Light Up are un conținut bogat de uleiuri de jojoba și avocado, pentru un efect intens de hidratare)  ',
+      price: '117,14 ',
+    },
+    {
+      name: 'Luciu de buze Light Up Artistry SIGNATURE COLOR™ - Nuanța Pink Sugar',
+      image:
+        'pics/imaginiProduse/Luciu de buze Light Up Artistry SIGNATURE COLOR™ pink sugar',
+      command_number: '118570',
+      description:
+        'Dimensiuni: 6 g(Luciul de buze Artistry SIGNATURE COLOR Light Up are un conținut bogat de uleiuri de jojoba și avocado, pentru un efect intens de hidratare)  ',
+      price: '117,14 ',
+    },
+    {
+      name: 'Luciu de buze Light Up Artistry SIGNATURE COLOR™ - Nuanța Rose Petal ',
+      image:
+        'pics/imaginiProduse/Luciu de buze Light Up Artistry SIGNATURE COLOR™ rose petal',
+      command_number: '118571',
+      description:
+        'Dimensiuni: 6 g(Luciul de buze Artistry SIGNATURE COLOR Light Up are un conținut bogat de uleiuri de jojoba și avocado, pentru un efect intens de hidratare)  ',
+      price: '117,14 ',
+    },
+    {
+      name: 'Luciu de buze Light Up Artistry SIGNATURE COLOR™ - Nuanța Misty Mauve ',
+      image:
+        'pics/imaginiProduse/Luciu de buze Light Up Artistry SIGNATURE COLOR™ misty mauve',
+      command_number: '118572',
+      description:
+        'Dimensiuni: 6 g(Luciul de buze Artistry SIGNATURE COLOR Light Up are un conținut bogat de uleiuri de jojoba și avocado, pentru un efect intens de hidratare)  ',
+      price: '117,14 ',
+    },
+    {
+      name: 'Luciu de buze Light Up Artistry SIGNATURE COLOR™ - Nuanța Raspberry Kiss ',
+      image:
+        'pics/imaginiProduse/Luciu de buze Light Up Artistry SIGNATURE COLOR™ raspberry kiss',
+      command_number: '118573',
+      description:
+        'Dimensiuni: 6 g(Luciul de buze Artistry SIGNATURE COLOR Light Up are un conținut bogat de uleiuri de jojoba și avocado, pentru un efect intens de hidratare)  ',
+      price: '117,14 ',
+    },
+    {
+      name: 'Mascara pentru Volum 3-in-1 Artistry™ ',
+      image: 'pics/imaginiProduse/Mascara pentru Volum 3-in-1 Artistry™.jpg',
+      command_number: '120872',
+      description:
+        'Dimensiuni: 7 ml(Conține extract de gălbenele, vitamina E și vitamina C, ceară de carnauba, fiind ușor de răsucit și rezistând 8+ ore)  ',
+      price: '129,67 ',
+    },
+    {
+      name: 'Mască de noapte Artistry Skin Nutrition™ ',
+      image: 'pics/imaginiProduse/Mască de noapte Artistry Skin Nutrition™.jpg',
+      command_number: '127108',
+      description:
+        'Dimensiuni: Aparat pentru masaj în formă de T, cu o capacitate de 80 ml(Conține extract de semințe de chia albă, extract CICA (Centella Asiatica) fermentată, niacinamide, extract de flori de Chrysanthemum morifolium + glucozidă de ascorbil, complex de plante - extracte vegetale de rozmarin, mușețel, gura-lupului, troscot asiatic, centella, lemn dulce și ceai)  ',
+      price: '377,57 ',
+    },
+    {
+      name: 'Mască exfoliantă Artistry Signature Select™ ',
+      image: 'pics/imaginiProduse/Mască exfoliantă Artistry Signature Select™',
+      command_number: '122339',
+      description:
+        'Dimensiuni: 100 g(Exfolierea cu zahăr natural elimină delicat stratul exterior de celule moarte ale pielii și expune o suprafață mai moale și catifelată, cu o strălucire sănătoasă, extractul de coacăze negre provenit de la Nutrilite™ ajutând tenul să se simtă hrănit și neted la atingere după fiecare utilizare)  ',
+      price: '161,99 ',
+    },
+    {
+      name: 'Mască hidratantă Artistry Signature Select™ ',
+      image: 'pics/imaginiProduse/Mască hidratantă Artistry Signature Select™',
+      command_number: '122343',
+      description:
+        'Dimensiuni: 100 g(Conține extract din ceai verde provenit de la Nutrilite™ ,un ingredient cunoscut pentru puterea sa antioxidantă.)  ',
+      price: '192,07 ',
+    },
+    {
+      name: 'Mască iluminatoare Artistry Signature Select™ ',
+      image:
+        'pics/imaginiProduse/Mască iluminatoare Artistry Signature Select™',
+      command_number: '122340',
+      description:
+        'Dimensiuni: 100 g(Conține extract din semințe de chia albă provenit de la Nutrilite™ și boabe de luffa și de jojoba)  ',
+      price: '204,05 ',
+    },
+    {
+      name: 'Mască purifiantă Artistry Signature Select™ ',
+      image: 'pics/imaginiProduse/Mască purifiantă Artistry Signature Select™',
+      command_number: '122342',
+      description:
+        'Dimensiuni: 100 g(Conține extract de citrice provenit de la Nutrilite™, ovăz, argilă franceză)  ',
+      price: '192,07 ',
+    },
+    {
+      name: 'Mască tonifiantă Artistry Signature Select™ ',
+      image: 'pics/imaginiProduse/Mască tonifiantă Artistry Signature Select™',
+      command_number: '122341',
+      description:
+        'Dimensiuni: 125 g(Formula (include extract de rodie provenit de la Nutrilite™) cu transformare instantanee face ca gelul răcoros, cu textură asemănătoare celei de miere, să devină o emulsie alb-cremoasă pe ten — oferind o senzație plăcută de căldură în timpul aplicării, astfel încât să știi că funcționează)  ',
+      price: '204,05 ',
+    },
+    {
+      name: 'Plasturi anti-cearcăn + iluminare Artistry Studio™ ',
+      image:
+        'pics/imaginiProduse/Plasturi anti-cearcăn + iluminare Artistry Studio™.jpg',
+      command_number: '124818',
+      description:
+        'Dimensiuni: 30 de seturi de măști pentru ochi (60 buc.) incluse în recipient(Conține ierburi marine si alge ca ingrediente)  ',
+      price: '155,33 ',
+    },
+    {
+      name: 'Pudră pulbere Perfecting Artistry EXACT FIT™ - Nuanța Light ',
+      image:
+        'pics/imaginiProduse/Pudră pulbere Perfecting Artistry EXACT FIT™light',
+      command_number: '116694',
+      description:
+        'Dimensiuni: 25 g(Conține perle tahitiene și prisme optice, într-un echilibru perfect. Formula reproduce aspectul natural al tenului, devenind astfel invizibilă după aplicare, iar tenul dumneavoastră va avea un aspect perfect.)  ',
+      price: '244,67 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța L2*N2 Natural',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
+      command_number: '116730',
+      description:
+        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
+      price: '139,49 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța L1*N1 Bisque',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ bisque',
+      command_number: '116725',
+      description:
+        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
+      price: '139,49 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța L1*W1 Buff',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ buff',
+      command_number: '116726',
+      description:
+        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
+      price: '139,49 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța L1*W2 Cream ',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ creamm',
+      command_number: '116727',
+      description:
+        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
+      price: '139,49 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța L2*C1 Chiffon',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ chiffon',
+      command_number: '116728',
+      description:
+        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
+      price: '139,49 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța L2*N1 Ochre',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ OCHRE',
+      command_number: '116729',
+      description:
+        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
+      price: '139,49 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța L2*W1 Sand ',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ sandd',
+      command_number: '116731',
+      description:
+        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
+      price: '139,49 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța L3*N1 Tawny',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ tawny',
+      command_number: '116733',
+      description:
+        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
+      price: '139,49 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța L4*N1 Golden ',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ golden',
+      command_number: '116736',
+      description:
+        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
+      price: '139,49 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța L5*W1 Cappuccino',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ cappuccinoo',
+      command_number: '116740',
+      description:
+        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
+      price: '139,49 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța L3*C1 Plush',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ plush',
+      command_number: '116732',
+      description:
+        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
+      price: '139,49 ',
+    },
+    {
+      name: 'Rezervă - Pudră compactă translucidă Artistry EXACT FIT™',
+      image:
+        'pics/imaginiProduse/Rezervă - Pudră compactă translucidă Artistry EXACT FIT™',
+      command_number: '116744',
+      description:
+        'Dimensiuni: 13 g(Conține o formulă inovatoare pe bază de perle tahitiene și prisme optice, care reproduc aspectul tenului natural. Astfel, pudra va deveni practic invizibilă pe tenul dumneavoastră, care va avea un aspect perfect. Reflectă delicat lumina, conferind un finisaj natural.)  ',
+      price: '124,92 ',
+    },
+    {
+      name: 'Rezervă paletă fard de obraz Artistry SIGNATURE COLOR™ - Nuanța Golden Light',
+      image:
+        'pics/imaginiProduse/Rezervă paletă fard de obraz Artistry SIGNATURE COLOR™ goldenlight',
+      command_number: '118398',
+      description:
+        'Dimensiuni: 3 g(Formula Fardului de obraz Artistry SIGNATURE COLOR™ conține: Pudră compusă din particule sferice, pentru o aplicare ușoară, micro-pigmenți, care oferă tenului un aspect sănătos și natural, perle cu efect special de distribuire uniformă a culorii, care oferă tenului un aspect luminos și creează un efect tridimensional.)  ',
+      price: '112,14 ',
+    },
+    {
+      name: 'Rezervă paletă fard de obraz Artistry SIGNATURE COLOR™ - Nuanța Soft Rose',
+      image:
+        'pics/imaginiProduse/Rezervă paletă fard de obraz Artistry SIGNATURE COLOR™ softrose',
+      command_number: '118401',
+      description:
+        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
+      price: '112,14 ',
+    },
+    {
+      name: 'Ruj cremos Artistry Go Vibrant™ - Nuanța 101 Saturday Peach',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
+      command_number: '124144',
+      description:
+        'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
+      price: '118,81 ',
+    },
+    {
+      name: 'Ruj cremos Artistry Go Vibrant™ - Nuanța 102 Weekend Rose',
+      image:
+        'pics/imaginiProduse/Ruj cremos Artistry Go Vibrant™ 102 weekend rose.jpg',
+      command_number: '124145',
+      description:
+        'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
+      price: '118,81 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța 104 Berry Special Evening',
+      image:
+        'pics/imaginiProduse/Ruj cremos Artistry Go Vibrant™ berry special evening.jpg',
+      command_number: '124147',
+      description:
+        'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
+      price: '118,81 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța Natural',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
+      command_number: '116730',
+      description:
+        'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
+      price: '118,81 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța Natural',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
+      command_number: '116730',
+      description:
+        'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
+      price: '118,81 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța Natural',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
+      command_number: '116730',
+      description:
+        'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
+      price: '139,49 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța Natural',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
+      command_number: '116730',
+      description:
+        'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
+      price: '139,49 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța Natural',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
+      command_number: '116730',
+      description:
+        'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
+      price: '139,49 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța Natural',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
+      command_number: '116730',
+      description:
+        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
+      price: '139,49 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța Natural',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
+      command_number: '116730',
+      description:
+        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
+      price: '139,49 ',
+    },
+    {
+      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța Natural',
+      image:
+        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
+      command_number: '116730',
+      description:
+        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
+      price: '139,49 ',
     },
   ], // Exemplu pentru o altă categorie
   Locuinta: [
@@ -1529,6 +2023,7 @@ function createProductMatrix(array, itemsPerRow) {
 
 function generateProductCards() {
   // Folosește un container dinamic în funcție de categorie
+
   const productContainer = document.getElementById(
     `product-container-${categorieProduse.toLowerCase().replace(/ /g, '-')}`
   );

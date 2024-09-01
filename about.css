@@ -22,24 +22,6 @@ body {
   );
 }
 
-@media only screen and (max-width: 600px) {
-  .menu-container {
-    grid-template-columns: repeat(2, auto);
-  }
-  .menu-button1 {
-    border-radius: 15px 0 0 0;
-  }
-  .menu-button4 {
-    border-radius: 0 0 15px 0;
-  }
-  .menu-button1,
-  .menu-button2,
-  .menu-button3,
-  .menu-button4 {
-    width: 150px;
-  }
-}
-
 .scroll-container {
   scroll-snap-type: y mandatory; /* Activează scroll snapping pe axa verticală */
   overflow-y: scroll;
@@ -256,19 +238,20 @@ body {
   color: #666; /* Culoare gri deschis pentru descriere */
 }
 
-/* Media queries pentru responsive design */
-@media (max-width: 768px) {
-  .stats {
-    flex-wrap: wrap; /* Permite înfășurarea pe ecrane mai mici */
+@media only screen and (max-width: 600px) {
+  .menu-container {
+    grid-template-columns: repeat(2, auto);
   }
-
-  .stats-item {
-    flex: 1 1 45%; /* 2 pe rând pe ecrane mai mici */
+  .menu-button1 {
+    border-radius: 15px 0 0 0;
   }
-}
-
-@media (max-width: 480px) {
-  .stats-item {
-    flex: 1 1 100%; /* 1 pe rând pe telefoane */
+  .menu-button4 {
+    border-radius: 0 0 15px 0;
+  }
+  .menu-button1,
+  .menu-button2,
+  .menu-button3,
+  .menu-button4 {
+    width: 150px;
   }
 }
