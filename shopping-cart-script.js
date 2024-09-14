@@ -1713,7 +1713,7 @@ const arrayProduse = {
     {
       name: 'Ruj cremos Artistry Go Vibrant™ - Nuanța 101 Saturday Peach',
       image:
-        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
+        'pics/imaginiProduse/Ruj cremos Artistry Go Vibrant™ saturday peach.jpg',
       command_number: '124144',
       description:
         'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
@@ -1729,7 +1729,7 @@ const arrayProduse = {
       price: '118,81 ',
     },
     {
-      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța 104 Berry Special Evening',
+      name: 'Ruj cremos Artistry Go Vibrant™ - Nuanța 104 Berry Special Evening',
       image:
         'pics/imaginiProduse/Ruj cremos Artistry Go Vibrant™ berry special evening.jpg',
       command_number: '124147',
@@ -1738,75 +1738,111 @@ const arrayProduse = {
       price: '118,81 ',
     },
     {
-      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța Natural',
+      name: 'Ruj cremos Artistry Go Vibrant™ - Nuanța 107 Take Charge Red',
       image:
-        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
-      command_number: '116730',
+        'pics/imaginiProduse/Ruj cremos Artistry Go Vibrant™ take charge red.jpg',
+      command_number: '124150',
       description:
         'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
       price: '118,81 ',
     },
     {
-      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța Natural',
+      name: 'Ruj cremos Artistry Go Vibrant™ - Nuanța 108 Text Me Terracotta',
       image:
-        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
-      command_number: '116730',
+        'pics/imaginiProduse/Ruj cremos Artistry Go Vibrant™ text me terracotta.jpg',
+      command_number: '124151',
       description:
         'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
       price: '118,81 ',
     },
     {
-      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța Natural',
+      name: 'Ruj cremos Artistry Go Vibrant™ - Nuanța 109 Spice Meets Nice',
       image:
-        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
-      command_number: '116730',
+        'pics/imaginiProduse/Ruj cremos Artistry Go Vibrant™ spice meets nice.jpg',
+      command_number: '124152',
       description:
         'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
-      price: '139,49 ',
+      price: '118,81 ',
     },
     {
-      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța Natural',
+      name: 'Ruj cremos Artistry Go Vibrant™ - Nuanța 103 Mauvelous Morning',
       image:
-        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
-      command_number: '116730',
+        'pics/imaginiProduse/Ruj cremos Artistry Go Vibrant™ mauvelous morning.jpg',
+      command_number: '124146',
       description:
         'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
-      price: '139,49 ',
+      price: '118,81 ',
     },
     {
-      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța Natural',
+      name: 'Ruj cremos Artistry Go Vibrant™ - Nuanța 106 Secret Crush',
       image:
-        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
-      command_number: '116730',
+        'pics/imaginiProduse/Ruj cremos Artistry Go Vibrant™ secret crush.jpg',
+      command_number: '124149',
       description:
         'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
-      price: '139,49 ',
+      price: '118,81 ',
     },
     {
-      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța Natural',
+      name: 'Ruj cremos Artistry Go Vibrant™ - Nuanța 110 Crush on Coral',
       image:
-        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
-      command_number: '116730',
+        'pics/imaginiProduse/Ruj cremos Artistry Go Vibrant™ 110 Crush on Coral.jpg',
+      command_number: '124153',
       description:
-        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
-      price: '139,49 ',
+        'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
+      price: '118,81 ',
     },
     {
-      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța Natural',
+      name: 'Ruj cremos Artistry Go Vibrant™ - Nuanța 111 Go-Go Cocoa',
       image:
-        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
-      command_number: '116730',
+        'pics/imaginiProduse/Ruj cremos Artistry Go Vibrant™ 111 Go-Go Cocoa.jpg',
+      command_number: '124154',
       description:
-        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
-      price: '139,49 ',
+        'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
+      price: '118,81 ',
     },
     {
-      name: 'Rezervă - Fond de ten pudră Artistry EXACT FIT™ - Nuanța Natural',
+      name: 'Ruj mat Artistry Go Vibrant™ - Nuanța 201 Lunch Date Pink',
       image:
-        'pics/imaginiProduse/Rezervă - Fond de ten pudră Artistry EXACT FIT™ natural',
-      command_number: '116730',
+        'pics/imaginiProduse/Ruj mat Artistry Go Vibrant™ Lunch Date Pink.jpg',
+      command_number: '124155',
       description:
-        'Dimensiuni: 12 g(Conține Amestecul Artistry EXACT FIT -  perle tahitiene şi prisme optice - şi minerale amazoniene rare)  ',
+        'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
+      price: '118,81 ',
+    },
+    {
+      name: 'Ruj mat Artistry Go Vibrant™ - Nuanța 202 Photobomb Fuchsia',
+      image:
+        'pics/imaginiProduse/Ruj mat Artistry Go Vibrant™ photobomb fuchsia.jpg',
+      command_number: '124156',
+      description:
+        'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
+      price: '118,81 ',
+    },
+    {
+      name: 'Ruj mat Artistry Go Vibrant™ - Nuanța 203 Recharge Rose',
+      image:
+        'pics/imaginiProduse/Ruj mat Artistry Go Vibrant™ Recharge Rise.jpg',
+      command_number: '124157',
+      description:
+        'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
+      price: '118,81 ',
+    },
+    {
+      name: 'Ruj mat Artistry Go Vibrant™ - Nuanța 201 Lunch Date Pink',
+      image:
+        'pics/imaginiProduse/Ruj mat Artistry Go Vibrant™ Lunch Date Pink.jpg',
+      command_number: '124155',
+      description:
+        'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
+      price: '118,81 ',
+    },
+    {
+      name: 'Ruj mat Artistry Go Vibrant™ - Nuanța 201 Lunch Date Pink',
+      image:
+        'pics/imaginiProduse/Ruj mat Artistry Go Vibrant™ Lunch Date Pink.jpg',
+      command_number: '124155',
+      description:
+        'Despre: Formulă benefică pentru buze, realizată cu tehnologia avansată pentru culori, care ajută la obținerea unor culori de durată(conține ulei de semințe de chia albă cultivată de Nutrilite, unt de Shea, extract de ginseng)  ',
       price: '139,49 ',
     },
   ], // Exemplu pentru o altă categorie
