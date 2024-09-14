@@ -23,10 +23,12 @@ body {
 }
 
 .menu-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  width: 100%;
   align-items: center;
-  justify-content: center; /* Centrare orizontală a meniului */
-  padding: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 /* Stiluri pentru butoane */
@@ -43,20 +45,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  width: 120px;
+  width: 140px;
   height: 76px;
-  margin-left: -1px; /* Eliminarea spațiului dintre butoane */
 }
 
 .menu-button1 {
   border-radius: 15px 0 0 15px;
-  margin-left: 350px;
 }
 
 .menu-button2,
@@ -66,8 +65,7 @@ body {
 
 .menu-button4 {
   border-radius: 0 15px 15px 0;
-  border-right: none; /* Eliminarea bordurii pentru ultimul buton */
-  margin-right: 365px;
+  border-right: none;
 }
 
 h1 {
@@ -368,4 +366,59 @@ h2 {
   background-color: gray; /* Culoare gri pentru butoanele dezactivate */
   color: #fff; /* Culoarea textului */
   cursor: not-allowed; /* Cursorul indică că nu se poate face clic */
+}
+
+@media only screen and (max-width: 800px) {
+  .menu-container {
+    grid-template-columns: repeat(2, auto);
+  }
+  .menu-button1 {
+    border-radius: 15px 0 0 0;
+  }
+  .menu-button4 {
+    border-radius: 0 0 15px 0;
+  }
+  .menu-button1,
+  .menu-button2,
+  .menu-button3,
+  .menu-button4 {
+    width: 150px;
+  }
+
+  .tab {
+    grid-template-columns: repeat(2, auto) !important;
+  }
+
+  .cos-cumparaturi {
+    margin-top: 160px !important;
+  }
+}
+
+/*tablete*/
+@media only screen and (max-width: 1300px) {
+  .product-view {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .product-row {
+    flex-direction: column;
+    flex-wrap: unset;
+  }
+  .card {
+    max-width: 100%;
+  }
+  .cos-cumparaturi {
+    position: absolute;
+    margin-top: 90px;
+    right: 7%;
+  }
+  .tab {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    button {
+      width: 160px;
+    }
+  }
 }
