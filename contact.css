@@ -20,14 +20,20 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
+  margin: 0px;
 }
+
 .menu-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  width: 100%;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
+
+/* Stiluri pentru butoane */
 .menu-button1,
 .menu-button2,
 .menu-button3,
@@ -41,28 +47,27 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  width: 120px;
+  width: 140px;
   height: 76px;
-  margin-left: -1px;
 }
+
 .menu-button1 {
   border-radius: 15px 0 0 15px;
-  margin-left: 200px;
 }
+
 .menu-button2,
 .menu-button3 {
   border-radius: 0;
 }
+
 .menu-button4 {
   border-radius: 0 15px 15px 0;
   border-right: none;
-  margin-right: 365px;
 }
 .menu-image {
   border-style: solid;
@@ -70,7 +75,9 @@ body {
   border: 5.7px solid rgb(17, 144, 166);
   width: 125px;
   height: 125px;
-  margin-right: 100px;
+  position: absolute;
+  left: 50px;
+  top: 5px;
 }
 .contact-container {
   display: flex;
@@ -113,4 +120,54 @@ body {
   margin-top: 5px;
   color: #777;
   font-size: 16px;
+}
+
+.menu-plus-image {
+  flex-direction: row;
+  display: flex;
+}
+
+@media only screen and (max-width: 700px) {
+  .menu-container {
+    grid-template-columns: repeat(2, auto);
+  }
+  .menu-button1 {
+    border-radius: 15px 0 0 0;
+  }
+  .menu-button4 {
+    border-radius: 0 0 15px 0;
+  }
+  .menu-button1,
+  .menu-button2,
+  .menu-button3,
+  .menu-button4 {
+    width: 150px;
+  }
+  .menu-image {
+    align-self: center;
+    left: 0%;
+    position: relative;
+  }
+
+  .contact-container {
+    width: 80%;
+  }
+
+  .contact-methods {
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact-method {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-plus-image {
+    flex-direction: column;
+    justify-content: left;
+  }
+}
+
+@media only screen and (max-width: 860px) {
 }
