@@ -3139,11 +3139,17 @@ function generateProductCards() {
     card.id = startIndex + index + 1;
     card.innerHTML = `
       <img src="${produs.image}" alt="${produs.name}" style="width: 100%" />
-      <h1>${produs.name}</h1>
-      <p class="price">${produs.price} RON</p>
-      <p class="card-description">${produs.description}</p>
-      <button onclick="addToCart('${produs.name}', '${produs.price}', '${produs.command_number}')">Adaugă în coș</button>
-    `;
+      <div class="overflow-class">
+        <h1>${produs.name}</h1>
+        <p class="price">${produs.price} RON</p>
+        <p class="card-description">${produs.description}</p>
+      </div>
+      <button
+        onclick="addToCart('${produs.name}', '${produs.price}', '${produs.command_number}')"
+      >
+        Adaugă în coș
+      </button>
+        `;
     productContainer.appendChild(card);
   });
 
