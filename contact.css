@@ -167,6 +167,14 @@ body {
     flex-direction: column;
     justify-content: left;
   }
+
+  .icon {
+    margin-top: 15px;
+  }
+
+  .contact-method {
+    margin-top: 10px;
+  }
 }
 
 @media only screen and (max-width: 860px) {
