@@ -1,3 +1,15 @@
+@keyframes shine {
+  0% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(2);
+  }
+  100% {
+    filter: brightness(1);
+  }
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -142,7 +154,13 @@ body {
   height: 63px; /* Poate fi ajustat pentru a păstra proporțiile */
   /* margin-left: -245px; /* Distanța față de butoanele din meniu */
   /* margin-right: 165px; */
+  transition: transform 0.3s, filter 0.5s; /* Adaugă tranziție pentru strălucire */
 }
+
+.side-image:hover {
+  transform: scale(1.3); /* Efect de mărire la hover */
+}
+
 .prev,
 .next {
   cursor: pointer;
@@ -215,9 +233,10 @@ body {
 }
 .footer img:hover {
   transform: scale(1.2); /* Efect de mărire la hover */
+  animation: shine 1s;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .menu-container {
     grid-template-columns: repeat(2, auto);
   }
@@ -276,5 +295,73 @@ body {
   .menu-image {
     margin-bottom: 10px;
     margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+  .menu-container {
+    grid-template-columns: repeat(2, auto);
+  }
+  .menu-button1 {
+    border-radius: 15px 0 0 0;
+  }
+  .menu-button4 {
+    border-radius: 0 0 15px 0;
+  }
+  .menu-button1,
+  .menu-button2,
+  .menu-button3,
+  .menu-button4 {
+    width: 250px;
+  }
+  .header {
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+
+  .slideshow-container {
+    height: 17vh;
+    width: 95%; /* Use full width of the screen */
+    max-width: 95%; /* Make sure it doesn't exceed the screen width */
+    margin: 0 auto; /* Remove any margins */
+    padding: 0; /* Remove padding to make full use of space */
+  }
+
+  /* Ensure images within the slideshow take up the full height */
+  .mySlides {
+    height: 100%;
+    object-fit: fill; /* Adjust image scaling */
+    width: 100%;
+  }
+
+  .slideshow-container::before {
+    height: 100%; /* Ensure border frame also scales with slideshow */
+  }
+
+  .footer {
+    margin-top: 60px; /* Decrease the space between slideshow and footer */
+    padding: 10px 0; /* Adjust padding to make the footer less tall */
+    position: relative; /* Normal flow positioning */
+  }
+
+  .side-image {
+    margin-top: 30px;
+    width: 150px;
+  }
+
+  .menu-image {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .footer img {
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .footer img:hover {
+    transform: scale(1.3); /* Efect de mărire la hover */
+    animation: shine 1s;
   }
 }

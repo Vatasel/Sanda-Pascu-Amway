@@ -127,7 +127,7 @@ body {
   display: flex;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
   .menu-container {
     grid-template-columns: repeat(2, auto);
   }
@@ -177,5 +177,25 @@ body {
   }
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (min-width: 850px) and (max-width: 1000px) {
+  .icon img {
+    width: 70px;
+    height: 55px;
+  }
+
+  .details h2 {
+    font-size: 22px; /* Ajustează dimensiunea h2 */
+  }
+
+  .details p {
+    font-size: 20px; /* Ajustează dimensiunea p */
+  }
+
+  .menu-button1,
+  .menu-button2,
+  .menu-button3,
+  .menu-button4 {
+    width: 250px;
+    font-size: 20px;
+  }
 }

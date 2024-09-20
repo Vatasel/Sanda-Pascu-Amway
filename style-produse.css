@@ -86,8 +86,9 @@ h2 {
   float: left;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  width: fit-content;
+  /* width: fit-content; */
   height: fit-content;
+  max-width: 600px;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -99,7 +100,7 @@ h2 {
   width: 100%;
   border: none;
   outline: none;
-  text-align: left;
+  text-align: center;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -207,6 +208,7 @@ h2 {
 
 .card-description {
   margin-bottom: 75px;
+  /* font-size: 17px; */
 }
 
 .cart-modal {
@@ -376,6 +378,7 @@ h2 {
 .overflow-class {
   overflow: scroll;
   justify-self: start;
+  overflow-x: hidden;
 }
 
 @media only screen and (max-width: 800px) {
@@ -402,6 +405,43 @@ h2 {
   .cos-cumparaturi {
     margin-top: 160px !important;
   }
+
+  h1 {
+    text-align: center; /* Centrare pe orizontală */
+    margin-left: 0; /* Resetează marginile pentru aliniere corectă */
+    margin-right: 0;
+  }
+
+  .card-description {
+    font-size: 22px; /* Ajustează această valoare pentru dimensiunea dorită */
+    line-height: 1.2; /* Ajustează distanța dintre rânduri pentru o mai bună lizibilitate */
+  }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1300px) {
+  .card {
+    max-height: 900px; /* Setează lungimea maximă la 1300px */
+  }
+  .card img {
+    max-height: 500px; /* Ajustează înălțimea maximă a imaginii */
+    max-width: 93%;
+    margin: 0 auto; /* Centrează imaginea în container */
+  }
+
+  h1 {
+    text-align: center; /* Centrare pe orizontală */
+    margin-left: 0; /* Resetează marginile pentru aliniere corectă */
+    margin-right: 0;
+  }
+
+  .card-description {
+    font-size: 30px; /* Ajustează această valoare pentru dimensiunea dorită */
+    line-height: 1.2; /* Ajustează distanța dintre rânduri pentru o mai bună lizibilitate */
+  }
+
+  .price {
+    font-size: 40px; /* Ajustează această valoare pentru dimensiunea dorită */
+  }
 }
 
 /*tablete*/
@@ -418,7 +458,7 @@ h2 {
   }
   .card {
     max-width: 100%;
-    max-height: 900px;
+    max-height: 1200px;
   }
   .cos-cumparaturi {
     position: absolute;
@@ -431,5 +471,14 @@ h2 {
     button {
       width: 160px;
     }
+  }
+
+  .card-description {
+    font-size: 30px; /* Ajustează această valoare pentru dimensiunea dorită */
+    line-height: 1.2; /* Ajustează distanța dintre rânduri pentru o mai bună lizibilitate */
+  }
+
+  .price {
+    font-size: 35px; /* Ajustează această valoare pentru dimensiunea dorită */
   }
 }
