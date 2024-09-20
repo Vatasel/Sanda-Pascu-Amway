@@ -2375,8 +2375,7 @@ const arrayProduse = {
     },
     {
       name: 'Detergent pentru geamuri L.O.C.™',
-      image:
-        'pics/imaginiProduse/XS™ High Protein Energy Shake - cu aromă de ciocolată neagră.jpg',
+      image: 'pics/imaginiProduse/Detergent pentru geamuri L.O.C.™',
       command_number: '117080',
       description:
         'Conține: 500 ml. Detergentul pentru geamuri L.O.C.™este adecvat pentru toate tipurile de suprafeţe din sticlă şi suprafeţe lucioase, inclusiv ferestre (interioare şi exterioare), oglinzi, parbrize, ecrane de computer (dacă sunt făcute din sticlă) şi televizoare, inclusiv ecrane plate cu plasmă. ',
